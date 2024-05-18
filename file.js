@@ -26,7 +26,7 @@ fs.readFile('./test.txt', 'utf-8', (err, data) => {
             }
             });
 
-// append
+// append 
 fs.appendFileSync('./test.txt',`${Date.now()} \n Hey there\n`);
 
 // copy 
